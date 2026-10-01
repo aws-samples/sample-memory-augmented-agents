@@ -35,7 +35,7 @@ cp .env.example .env
 # Edit .env: set AWS_PROFILE and AWS_REGION. Optionally pin a model with STRANDS_MODEL_ID.
 
 # Run any of the three memory patterns
-python sliding_window_agent.py      # keep the last N messages
+python sliding_window_agent.py      # keep the last N messages (set to 10)
 python summarizing_memory_agent.py  # compress old messages into a summary
 python persistent_session_agent.py  # remember across restarts
 ```
