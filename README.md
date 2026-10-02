@@ -40,7 +40,7 @@ python summarizing_memory_agent.py  # compress old messages into a summary
 python persistent_session_agent.py  # remember across restarts
 ```
 
-> **Note:** `persistent_session_agent.py` writes session state to `08-memory-augmented-agents/.sessions/` (next to the script, whatever directory you run it from) so the agent remembers you across restarts.
+> **Note:** `persistent_session_agent.py` writes session state to `.sessions/` (next to the script, whatever directory you run it from) so the agent remembers you across restarts.
 
 **Try these exercises:**
 1. **Prove persistence.** In `persistent_session_agent.py`, share a detail, `quit`, restart with the same session ID, and ask it to recall.
