@@ -64,7 +64,7 @@ A stateless agent treats every message as if it were the first. Memory changes t
 
 <img src="images/memory-augmented-agents.png" width="600" alt="Diagram of a memory-augmented agent: input triggers retrieval of short-term and long-term memory, the LLM reasons with that context to produce output, and new information is written back to memory." />
 
-> **Note:** Strands handles short-term memory through [conversation managers](https://strandsagents.com/docs/user-guide/concepts/agents/conversation-management/) and cross-session memory through [session managers](https://strandsagents.com/docs/user-guide/concepts/agents/session-management/). For *why* memory turns a reactive tool into an adaptive collaborator, see the [companion blog](Agents%20That%20Remember%20-%20Context%20Windows%2C%20Summaries%2C%20and%20Persistent%20Sessions.md).
+> **Note:** Strands handles short-term memory through [conversation managers](https://strandsagents.com/docs/user-guide/sdk/agents/conversation-management/) and cross-session memory through [session managers](https://strandsagents.com/docs/user-guide/sdk/agents/session-management/). For *why* memory turns a reactive tool into an adaptive collaborator, see the [companion blog](Agents%20That%20Remember%20-%20Context%20Windows%2C%20Summaries%2C%20and%20Persistent%20Sessions.md).
 
 ### Sliding Window
 
@@ -133,8 +133,8 @@ Each `session_id` is an isolated memory; type `new` in the sample to branch a fr
 
 - [Companion blog post: Agents That Remember](Agents%20That%20Remember%20-%20Context%20Windows%2C%20Summaries%2C%20and%20Persistent%20Sessions.md)
 - [AWS Prescriptive Guidance - Memory-augmented agents](https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/memory-augmented-agents.html)
-- [Strands conversation management](https://strandsagents.com/docs/user-guide/concepts/agents/conversation-management/)
-- [Strands session management](https://strandsagents.com/docs/user-guide/concepts/agents/session-management/)
+- [Strands conversation management](https://strandsagents.com/docs/user-guide/sdk/agents/conversation-management/)
+- [Strands session management](https://strandsagents.com/docs/user-guide/sdk/agents/session-management/)
 - [Amazon Bedrock User Guide](https://docs.aws.amazon.com/bedrock/latest/userguide/what-is-bedrock.html)
 
 ### The series
